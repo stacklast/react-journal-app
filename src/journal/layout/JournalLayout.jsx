@@ -13,10 +13,8 @@ export const JournalLayout = ({children}) => {
         <Box component='main'
             sx={{flexGrowl: 1, p:3}}
         >
-          <Toolbar>
-            
-          </Toolbar>
-            {children}
+          <Toolbar />
+          {children}
         </Box>
     </Box>
   )
